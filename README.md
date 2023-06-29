@@ -1,4 +1,4 @@
-# Directory Tree Generator
+# File Tree Generator
 
 Run this Python script in file directories to generate a file tree structure. It will create a file, 'tree.md', with the file tree.
 
