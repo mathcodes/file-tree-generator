@@ -3,15 +3,14 @@
 Run this Python script in file directories to generate a file tree structure. It will create a file, 'tree.md', with the file tree.
 
 ## Table of Contents
-- [Directory Tree Generator](#directory-tree-generator)
-  - [Table of Contents](#table-of-contents)
-  - [Description](#description)
-  - [Files](#files)
-  - [Downloads](#downloads)
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [Contributing](#contributing)
-  - [License](#license)
+- [Description](#description)
+- [Files](#files)
+- [Downloads](#downloads)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- Contact[#contact]
 
 ## Description
 
@@ -155,5 +154,12 @@ Contributions are welcome! For major changes, please open an issue first to disc
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
 
+
+## Contact
+
+<img src="https://www.jonchristie.net/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favatar.0a7399c0.png&w=128&q=75" alt="Github profile image" width="80px" height="80px" />
+
+__Jon Christie__ 
+
+[<img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" />](https://twitter.com/jCircle9) [<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />](https://www.linkedin.com/in/jonpchristie/ "LinkedIn") 
