@@ -7,9 +7,6 @@ Run this Python script in file directories to generate a file tree structure. It
   - [Table of Contents](#table-of-contents)
   - [Description](#description)
   - [Files](#files)
-    - [powershell\_tree\_generator.ps1](#powershell_tree_generatorps1.ps1)
-    - [powershell\_tree\_generator.py](#powershell_tree_generatorpy)
-      - [NOTE: Read the comments for a detailed explanation of the code](#note-read-the-comments-for-a-detailed-explanation-of-the-code)
   - [Downloads](#downloads)
   - [Installation](#installation)
   - [Usage](#usage)
@@ -131,31 +128,25 @@ with open("TREE.md", "w") as f:
 print(output)
 
 ```
-
 </details>
 
 This Python script generates a directory tree structure by utilizing the PowerShell script mentioned above. The `format_tree` function formats the tree structure, and the remaining code executes the PowerShell script, captures the output, takes user input for the directory tree structure, formats the tree, executes PowerShell commands, creates a markdown file with the formatted tree, and prints the PowerShell output.
 
 ## Downloads
 
-You will need to download and install the following software to run the scripts:
+You will need to download and install PowerShell on a [PC](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell) or [MAC](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-macos) for this script to work.
 
-PowerShell: This script was tested with PowerShell 7.1.3, but it should work with PowerShell 5.1 as well. Download it on a [PC](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell) or [MAC](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-macos).
-
-## Installation
+## Installation & Usage
 
 Please follow these steps to run the script:
 
-1. Clone the repository: `git clone https://github.com/your/repo.git`
-2. Navigate to the project directory: `cd directory-tree-generator`
-3. Install the required dependencies: `pip install -r requirements.txt`
+```
+git clone https://github.com/your/repo.git
+cd directory-tree-generator
+python powershell_tree_generator.py
+```
 
-## Usage
-
-1. Open a terminal or command prompt and navigate to the project directory.
-2. Run the script: `python powershell_tree_generator.py`
-3. Follow the on-screen instructions to provide the directory tree structure.
-4. Once completed, a file named "tree.md" will be generated with the file tree structure.
+Once completed, a file named "tree.md" will be generated with the file tree structure.
 
 ## Contributing
 
